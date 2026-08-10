@@ -1,0 +1,32 @@
+[tools]
+node = "24"
+# Android Gradle builds need a JDK; 17 is what RN 0.86 / Expo SDK 57 expect.
+java = "temurin-17"
+# iOS native builds run `pod install` during prebuild.
+ruby = "3.3"
+cocoapods = "latest"
+
+[env]
+_.path = ["./node_modules/.bin"]
+# JAVA_HOME is set automatically by mise's java backend.
+ANDROID_HOME = "{{ env.HOME }}/Library/Android/sdk"
+
+[tasks.web]
+description = "Run the app in a browser"
+run = "expo start --web"
+
+[tasks.ios]
+description = "Build and run the app in the iOS simulator"
+run = "expo run:ios"
+
+[tasks.android]
+description = "Build and run the app in an Android emulator"
+run = "expo run:android"
+
+[tasks.typecheck]
+description = "Type-check the project"
+run = "tsc --noEmit"
+
+[tasks.build-web]
+description = "Export the static web build to dist/"
+run = "expo export --platform web"

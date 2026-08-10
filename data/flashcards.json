@@ -1,0 +1,254 @@
+[
+  {
+    "id": "num-001",
+    "front": "How far from the curb must you be to be legally parked?",
+    "back": "12 inches",
+    "category": "Parking Distances & Regulations",
+    "source": "WA Driver Guide §4.18, p. 144"
+  },
+  {
+    "id": "num-002",
+    "front": "Under what age is it illegal to leave a child in a parked vehicle with the motor running?",
+    "back": "16 years",
+    "category": "Parking Distances & Regulations",
+    "source": "WA Driver Guide §4.18, p. 145"
+  },
+  {
+    "id": "num-003",
+    "front": "How far from a driveway must you park?",
+    "back": "5 feet",
+    "category": "Parking Distances & Regulations",
+    "source": "WA Driver Guide §4.18, p. 143"
+  },
+  {
+    "id": "num-004",
+    "front": "How far from a fire hydrant must you park?",
+    "back": "15 feet",
+    "category": "Parking Distances & Regulations",
+    "source": "WA Driver Guide §4.18, p. 144"
+  },
+  {
+    "id": "num-005",
+    "front": "Can you park on a crosswalk?",
+    "back": "No — parking on a crosswalk is prohibited outright (the 20-foot rule applies to pedestrian safety zones, not crosswalks)",
+    "category": "Parking Distances & Regulations",
+    "source": "WA Driver Guide §4.18, p. 143"
+  },
+  {
+    "id": "num-006",
+    "front": "Within what distance of a pedestrian safety zone may you not park?",
+    "back": "20 feet",
+    "category": "Parking Distances & Regulations",
+    "source": "WA Driver Guide §4.18, p. 144"
+  },
+  {
+    "id": "num-007",
+    "front": "How far from a stop sign or traffic light must you park?",
+    "back": "30 feet",
+    "category": "Parking Distances & Regulations",
+    "source": "WA Driver Guide §4.18, p. 143"
+  },
+  {
+    "id": "num-008",
+    "front": "How far from a railroad crossing must you park?",
+    "back": "50 feet",
+    "category": "Parking Distances & Regulations",
+    "source": "WA Driver Guide §4.18, p. 144"
+  },
+  {
+    "id": "num-009",
+    "front": "How far from a fire station driveway on the opposite side of the street must you park?",
+    "back": "75 feet",
+    "category": "Parking Distances & Regulations",
+    "source": "WA Driver Guide §4.18, p. 143"
+  },
+  {
+    "id": "num-010",
+    "front": "How far does it take a loaded truck at 55 mph to stop completely?",
+    "back": "450 feet",
+    "category": "Minimum Distances",
+    "source": "WA Driver Guide §4.4, p. 98"
+  },
+  {
+    "id": "num-011",
+    "front": "To practice judging travel distance, pick a marker you think is how many seconds ahead?",
+    "back": "15 seconds",
+    "category": "Minimum Distances",
+    "source": "WA Driver Guide §5.4, p. 161"
+  },
+  {
+    "id": "num-012",
+    "front": "From what distance must your brake lights be clearly visible?",
+    "back": "100 feet",
+    "category": "Minimum Distances",
+    "source": "WA Driver Guide §2.5, p. 50"
+  },
+  {
+    "id": "num-013",
+    "front": "How far before a turn must you activate your turn signal?",
+    "back": "100 feet",
+    "category": "Minimum Distances",
+    "source": "WA Driver Guide §2.5, p. 50"
+  },
+  {
+    "id": "num-014",
+    "front": "What is the minimum distance you must maintain before/after a stationary emergency vehicle with siren or flashing lights?",
+    "back": "200 feet",
+    "category": "Minimum Distances",
+    "source": "RCW 46.61.212; WA Driver Guide p. 3"
+  },
+  {
+    "id": "num-015",
+    "front": "What is the minimum liability insurance required per person for bodily injury in Washington?",
+    "back": "$$25,000",
+    "category": "Minimum Distances",
+    "source": "WA Driver Guide §2.3, p. 43"
+  },
+  {
+    "id": "num-016",
+    "front": "How far does headlight glow usually reach (the distance within which you must be able to stop at night)?",
+    "back": "400 feet",
+    "category": "Minimum Distances",
+    "source": "WA Driver Guide §5.6, p. 166"
+  },
+  {
+    "id": "num-017",
+    "front": "At what distance behind a vehicle must you dim your headlights?",
+    "back": "300 feet",
+    "category": "Minimum Distances",
+    "source": "RCW 46.37.230; WA Driver Guide §2.5, p. 50"
+  },
+  {
+    "id": "num-018",
+    "front": "How far are you allowed to drive in a two-way left turn lane?",
+    "back": "300 feet",
+    "category": "Minimum Distances",
+    "source": "WA Driver Guide §4.16, p. 134"
+  },
+  {
+    "id": "num-019",
+    "front": "What is the minimum liability insurance required per accident for bodily injury in Washington?",
+    "back": "$$50,000",
+    "category": "Minimum Distances",
+    "source": "WA Driver Guide §2.3, p. 43"
+  },
+  {
+    "id": "num-020",
+    "front": "What is the distance lit by headlights?",
+    "back": "400 feet",
+    "category": "Minimum Distances",
+    "source": "WA Driver Guide §5.6, p. 166"
+  },
+  {
+    "id": "num-021",
+    "front": "At what distance must you dim your headlights for an oncoming vehicle?",
+    "back": "500 feet",
+    "category": "Minimum Distances",
+    "source": "RCW 46.37.230; WA Driver Guide §2.5, p. 50"
+  },
+  {
+    "id": "num-022",
+    "front": "When must you turn on your headlights relative to sunset and sunrise?",
+    "back": "At least 1/2 hour after sunset and 1/2 hour before sunrise",
+    "category": "Minimum Distances",
+    "source": "WA Driver Guide §2.5, p. 49"
+  },
+  {
+    "id": "num-023",
+    "front": "What BAC level makes a driver under age 21 legally intoxicated (DUI)?",
+    "back": "0.02%",
+    "category": "Impairment Limits",
+    "source": "WA Driver Guide §1.15, p. 37"
+  },
+  {
+    "id": "num-024",
+    "front": "What is the THC limit for drivers under age 21?",
+    "back": "More than 0.00 nanograms per milliliter of blood",
+    "category": "Impairment Limits",
+    "source": "WA Driver Guide §1.15, p. 37"
+  },
+  {
+    "id": "num-025",
+    "front": "What BAC level makes a driver over age 21 legally intoxicated (DUI)?",
+    "back": "0.08%",
+    "category": "Impairment Limits",
+    "source": "WA Driver Guide §1.15, p. 37"
+  },
+  {
+    "id": "num-026",
+    "front": "What is the THC limit for drivers over age 21?",
+    "back": "More than 5.00 nanograms per milliliter of blood",
+    "category": "Impairment Limits",
+    "source": "WA Driver Guide §1.15, p. 37"
+  },
+  {
+    "id": "num-027",
+    "front": "How many days does a seller have to report the sale of a vehicle to the Department of Licensing?",
+    "back": "5 days",
+    "category": "Deadlines & Validity",
+    "source": "WA Driver Guide §2.1, p. 42"
+  },
+  {
+    "id": "num-028",
+    "front": "What is the standard validity period for a Washington driver's license?",
+    "back": "8 years (a 6-year option is also available, but 8 years is the default since 2022)",
+    "category": "Deadlines & Validity",
+    "source": "RCW 46.20.181; WA DOL, dol.wa.gov"
+  },
+  {
+    "id": "num-029",
+    "front": "How many days do you have to report a change of address or name for your driver's license?",
+    "back": "10 days",
+    "category": "Deadlines & Validity",
+    "source": "WA Driver Guide §1.16, p. 39"
+  },
+  {
+    "id": "num-030",
+    "front": "How many days does a buyer have to transfer title and registration of a vehicle?",
+    "back": "15 days",
+    "category": "Deadlines & Validity",
+    "source": "WA Driver Guide §2.1, p. 42"
+  },
+  {
+    "id": "num-031",
+    "front": "What is the maximum speed in school zones?",
+    "back": "20 mph",
+    "category": "Speed Limits",
+    "source": "WA Driver Guide §4.17, p. 140"
+  },
+  {
+    "id": "num-032",
+    "front": "What is the maximum speed in cities, towns, and on ocean beaches?",
+    "back": "25 mph",
+    "category": "Speed Limits",
+    "source": "RCW 46.61.400(2)(a)"
+  },
+  {
+    "id": "num-033",
+    "front": "What is the maximum speed on county roads?",
+    "back": "50 mph",
+    "category": "Speed Limits",
+    "source": "RCW 46.61.400(2)(b)"
+  },
+  {
+    "id": "num-034",
+    "front": "What is the maximum speed on state highways?",
+    "back": "60 mph",
+    "category": "Speed Limits",
+    "source": "RCW 46.61.400(2)(c)"
+  },
+  {
+    "id": "num-035",
+    "front": "What is the maximum speed on interstate freeways in an urban area?",
+    "back": "60 mph",
+    "category": "Speed Limits",
+    "source": "RCW 46.61.400; RCW 46.61.410"
+  },
+  {
+    "id": "num-036",
+    "front": "What is the maximum speed on interstate freeways in a rural area?",
+    "back": "70 mph",
+    "category": "Speed Limits",
+    "source": "RCW 46.61.400; RCW 46.61.410"
+  }
+]

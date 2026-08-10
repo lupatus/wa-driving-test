@@ -1,0 +1,169 @@
+[
+  {
+    "id": "licenses",
+    "label": "Licenses & Permits",
+    "shortLabel": "Licenses",
+    "guideSections": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7",
+      "1.8",
+      "1.9",
+      "1.10",
+      "1.11",
+      "1.12",
+      "1.13",
+      "1.14",
+      "1.15",
+      "1.16"
+    ],
+    "questionCount": 30,
+    "examQuestions": 1
+  },
+  {
+    "id": "vehicles",
+    "label": "Vehicles, Equipment & Insurance",
+    "shortLabel": "Vehicles",
+    "guideSections": [
+      "2.0",
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4",
+      "2.5",
+      "2.6",
+      "2.7",
+      "2.8",
+      "2.9",
+      "2.10",
+      "2.11",
+      "2.12",
+      "2.13",
+      "2.14"
+    ],
+    "questionCount": 35,
+    "examQuestions": 1
+  },
+  {
+    "id": "drivers",
+    "label": "Impaired & Distracted Driving",
+    "shortLabel": "Drivers",
+    "guideSections": [
+      "3.0",
+      "3.1",
+      "3.2",
+      "3.3",
+      "3.4",
+      "3.5",
+      "3.6"
+    ],
+    "questionCount": 40,
+    "examQuestions": 5
+  },
+  {
+    "id": "signs-signals",
+    "label": "Signs & Traffic Signals",
+    "shortLabel": "Signs & Signals",
+    "guideSections": [
+      "4.10",
+      "4.11",
+      "4.12"
+    ],
+    "questionCount": 45,
+    "examQuestions": 10
+  },
+  {
+    "id": "right-of-way",
+    "label": "Right of Way, Intersections & Turning",
+    "shortLabel": "Right of Way",
+    "guideSections": [
+      "4.10",
+      "4.13",
+      "4.14",
+      "4.15"
+    ],
+    "questionCount": 40,
+    "examQuestions": 7
+  },
+  {
+    "id": "sharing-road",
+    "label": "Sharing the Road",
+    "shortLabel": "Sharing the Road",
+    "guideSections": [
+      "4.0",
+      "4.1",
+      "4.2",
+      "4.3",
+      "4.4",
+      "4.5",
+      "4.6",
+      "4.7",
+      "4.8",
+      "4.9",
+      "4.17"
+    ],
+    "questionCount": 42,
+    "examQuestions": 5
+  },
+  {
+    "id": "markings-parking",
+    "label": "Road Markings, Zones & Parking",
+    "shortLabel": "Markings & Parking",
+    "guideSections": [
+      "4.16",
+      "4.17",
+      "4.18",
+      "4.19",
+      "4.20"
+    ],
+    "questionCount": 40,
+    "examQuestions": 4
+  },
+  {
+    "id": "speed-space",
+    "label": "Speed, Space & Following Distance",
+    "shortLabel": "Speed & Space",
+    "guideSections": [
+      "5.0",
+      "5.1",
+      "5.2",
+      "5.3",
+      "5.4"
+    ],
+    "questionCount": 40,
+    "examQuestions": 3
+  },
+  {
+    "id": "conditions-emergencies",
+    "label": "Conditions, Emergencies & Collisions",
+    "shortLabel": "Conditions & Emergencies",
+    "guideSections": [
+      "5.5",
+      "5.6",
+      "5.7",
+      "5.8",
+      "5.9",
+      "5.10"
+    ],
+    "questionCount": 40,
+    "examQuestions": 2
+  },
+  {
+    "id": "numbers",
+    "label": "Numbers to Know",
+    "shortLabel": "Numbers",
+    "guideSections": [
+      "7.3",
+      "7.4",
+      "3.5",
+      "11.2"
+    ],
+    "questionCount": 35,
+    "examQuestions": 2
+  }
+]

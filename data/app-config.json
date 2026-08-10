@@ -1,0 +1,34 @@
+{
+  "examConfig": {
+    "TOTAL_QUESTIONS": 40,
+    "PASSING_CORRECT": 32,
+    "PASSING_PERCENT": 80
+  },
+  "examBlueprint": {
+    "signs-signals": 10,
+    "right-of-way": 7,
+    "sharing-road": 5,
+    "drivers": 5,
+    "markings-parking": 4,
+    "speed-space": 3,
+    "numbers": 2,
+    "conditions-emergencies": 2,
+    "vehicles": 1,
+    "licenses": 1
+  },
+  "leitnerIntervalDays": {
+    "1": 0,
+    "2": 1,
+    "3": 3,
+    "4": 7,
+    "5": 14
+  },
+  "storageKey": "wa-driving-study",
+  "notes": [
+    "topic is NOT a field in question-bank.json; it is derived as id.replace(/-\\d{3}$/, '').",
+    "Flashcards and review reuse the same question bank; there is no separate deck data.",
+    "Review mode selects questions where questionStats[id].wrong > .correct (getMissedQuestionIds).",
+    "Leitner: correct -> box=min(box+1,5); incorrect -> box=1. Due when days since lastReviewedAt >= interval.",
+    "examBlueprint values sum to 40 and define per-topic question quotas for a mock exam."
+  ]
+}
