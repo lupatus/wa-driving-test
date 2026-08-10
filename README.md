@@ -15,6 +15,21 @@ web, iOS and Android via Expo.
 
 [guide]: https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides
 
+## Why this exists
+
+I built this for my son while he was studying for his Washington knowledge test.
+Working through the Driver Guide on its own is hard going — it's long, and
+there's no good way to find out what you've actually retained.
+
+The apps that solve this charge a lot, sometimes tens of dollars, for practice
+questions drawn from a guide the state publishes free online. I didn't think
+that was worth paying, so I made this instead. It's free, it works offline, and
+it has no ads, no accounts and no tracking of any kind.
+
+If it helps someone else pass, good. If you spot a wrong answer, please open an
+issue — that's worth more to the next person than anything else you could
+contribute.
+
 ## Running it
 
 Toolchain is pinned with [mise](https://mise.jdx.dev) — Node 24, Temurin JDK 17
