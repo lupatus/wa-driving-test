@@ -1,5 +1,7 @@
 import {
   ActivityIndicator,
+  Linking,
+  Platform,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -11,6 +13,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { SUPPORT_LABEL, SUPPORT_PLATFORMS, SUPPORT_URL } from '@/constants/support';
 import { MaxContentWidth, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 
@@ -253,6 +256,37 @@ export function StatTile({ value, label }: { value: string | number; label: stri
   );
 }
 
+/**
+ * Optional support link. Renders nothing unless SUPPORT_URL is set and the
+ * current platform is allowed — see constants/support.ts for why that matters.
+ */
+export function SupportLink() {
+  const c = useTheme();
+
+  const allowed = (SUPPORT_PLATFORMS as readonly string[]).includes(Platform.OS);
+  if (!SUPPORT_URL || !allowed) return null;
+
+  // react-native-web turns `href` into a real <a>, which keeps middle-click,
+  // open-in-new-tab and copy-link-address working. Those props aren't in the
+  // React Native types, hence the cast.
+  const webLinkProps = {
+    href: SUPPORT_URL,
+    hrefAttrs: { target: '_blank', rel: 'noopener noreferrer' },
+  } as object;
+
+  return (
+    <Text
+      {...webLinkProps}
+      accessibilityRole="link"
+      onPress={() => {
+        Linking.openURL(SUPPORT_URL).catch(() => {});
+      }}
+      style={[styles.supportText, styles.supportLink, { color: c.textSecondary }]}>
+      {SUPPORT_LABEL}
+    </Text>
+  );
+}
+
 export function Loading({ label = 'Loading…' }: { label?: string }) {
   const c = useTheme();
   return (
@@ -333,6 +367,8 @@ const styles = StyleSheet.create({
   },
   statValue: { fontSize: 24, fontWeight: '700' },
   statLabel: { fontSize: 12, textAlign: 'center' },
+  supportLink: { alignSelf: 'center', paddingVertical: Spacing.md, minHeight: 44, justifyContent: 'center' },
+  supportText: { fontSize: 13 },
   loading: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: Spacing.xl },
   emptyCard: { alignItems: 'center', gap: Spacing.sm },
   emptyEmoji: { fontSize: 40 },

@@ -12,6 +12,7 @@ import {
   SectionHeading,
   StatTile,
   Subtitle,
+  SupportLink,
   Title,
 } from '@/components/ui';
 import { Spacing } from '@/constants/theme';
@@ -123,6 +124,8 @@ export default function DashboardScreen() {
           onPress={() => router.push('/review')}
         />
       </View>
+
+      <SupportLink />
     </Screen>
   );
 }

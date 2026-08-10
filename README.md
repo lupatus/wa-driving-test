@@ -165,6 +165,18 @@ Bundle id / package is `com.lupatus.wadrivingtest`, set in `app.json`.
 - No analytics, no accounts, no network calls. The datasets are bundled at build
   time, so the app works fully offline.
 
+## Support
+
+The app is free and always will be. If it saved you the price of one of the paid
+ones, a beer is welcome but entirely optional — the Sponsor button on this repo,
+or the link on the web version.
+
+Set `SUPPORT_URL` in [`src/constants/support.ts`](src/constants/support.ts) to
+enable that link; leave it empty and nothing renders. It is deliberately
+**web-only**: Apple does not permit apps to collect donations in-app unless you
+are an approved nonprofit, and developer tips must otherwise go through in-app
+purchase.
+
 ## Contributing
 
 Corrections to the question bank are the most valuable contribution — open an
