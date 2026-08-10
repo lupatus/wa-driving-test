@@ -1,7 +1,13 @@
-# GitHub shows a "Sponsor" button on the repo for each entry below.
+# Funding links for the repo's "Sponsor" button.
 #
-# github: only renders once the account is enrolled in GitHub Sponsors
-#   (https://github.com/sponsors) — until then the entry is ignored.
+# This file on its own is NOT enough. The button only appears once the
+# Sponsorships feature is enabled for the repository:
+#   Settings > General > Features > Sponsorships
+# It is off by default, and there is no API for it — it must be ticked in the
+# web UI. The file also has to live in .github/ on the default branch.
+#
+# `github:` additionally requires the account to be enrolled in GitHub Sponsors
+# (https://github.com/sponsors); until then that entry is ignored, while the
+# ko_fi entry works on its own.
 github: [lupatus]
-
 ko_fi: lupatus
