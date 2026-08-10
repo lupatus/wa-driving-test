@@ -4,9 +4,4 @@
 #   (https://github.com/sponsors) — until then the entry is ignored.
 github: [lupatus]
 
-# Uncomment and set the handle once the account exists. Do not guess a handle:
-# an unclaimed name on these platforms may belong to someone else, and the
-# button would quietly send money to a stranger.
-# ko_fi: your-ko-fi-handle
-# buy_me_a_coffee: your-bmac-handle
-# custom: ["https://example.com/donate"]
+ko_fi: lupatus

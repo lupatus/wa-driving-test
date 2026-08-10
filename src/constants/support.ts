@@ -1,11 +1,8 @@
 /**
- * Where the "buy me a beer" link points. Empty string hides the link entirely,
- * so nothing ships pointing at a URL that does not exist yet.
- *
- * Set this to your Ko-fi / Buy Me a Coffee page, e.g.
- *   export const SUPPORT_URL = 'https://ko-fi.com/your-handle';
+ * Where the "buy me a beer" link points. Set to an empty string to hide the
+ * link entirely.
  */
-export const SUPPORT_URL = '';
+export const SUPPORT_URL = 'https://ko-fi.com/lupatus';
 
 export const SUPPORT_LABEL = '🍺 Buy me a beer';
 
